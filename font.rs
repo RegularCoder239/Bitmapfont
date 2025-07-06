@@ -1,9 +1,4 @@
-#ifndef FONT_H
-#define FONT_H
-
-#include <stdint.h>
-
-static uint64_t FONT[] = {
+static FONT: [u64; 256] = [
 	0x0, // SPACE
 	0x1818001818181818, // !
 	0x0000000066666600, // "
@@ -261,6 +256,4 @@ static uint64_t FONT[] = {
 	0x0,
 	0x0,
 	0x0
-};
-
-#endif
+];
